@@ -35,3 +35,29 @@ I don't have enough experience in Front-End Development at the moment.
 
 ## English level
 > A1
+
+## Exemple cod
+``
+            <div class="breakfast_box">
+                <div class="breakfast__items">
+                    <div class="breakfast__item">
+                        <div class="breakfast__titel">Breakfast</div>
+                        <div class="breakfast__text">7am Breakfast? we’re open!</div>
+                    </div>
+                    <div class="breakfast__item">
+                        <div class="breakfast__titel">Full breakfast</div>
+                        <div class="breakfast__text">Duis ut tortor, et risus, vulputate pretium</div>
+                        <div class="breakfast__price">$12.49</div>
+                    </div>
+                    <div class="breakfast__item">
+                        <div class="breakfast__titel">Toast & Jam</div>
+                        <div class="breakfast__text">Suspendisse, tempus, nterdum</div>
+                        <div class="breakfast__price">$4.90</div>
+                    </div>
+                    <div class="breakfast__item">
+                        <div class="breakfast__titel">Muffins</div>
+                        <div class="breakfast__text">Fusce eget dui sodales est</div>
+                        <div class="breakfast__price">$3.95</div>
+                    </div>
+                </div>
+``
