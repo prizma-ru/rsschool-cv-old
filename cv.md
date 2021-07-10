@@ -7,6 +7,9 @@
 
 > *Email:* __dmitry.glotov@gmail.com__;
 
+## Summary
+I want to study Frontend development to expand my knowledge and experience
+
 ## Skills
 
 * HTML;
