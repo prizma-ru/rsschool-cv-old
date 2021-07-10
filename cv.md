@@ -4,6 +4,7 @@
 
 ## Contacts
 > *Phone number:* __+985-XXX-XX-XX__;
+
 > *Email:* __dmitry.glotov@gmail.com__;
 
 ## Skills
