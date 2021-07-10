@@ -15,15 +15,15 @@ I want to study Frontend development to expand my knowledge and experience
 * HTML;
 * CSS;
 * SQL;
-* Photoshop;
+* Photoshop, Figma;
 * GIT;
-* Figma.
+* Agile, Scrum, Kanban.
 
 ## Experience and Education
 I don't have enough experience in Front-End Development at the moment.
 
-> Orel State Technical University (OrelSTU), 2004-2007
-
+> Orel State Technical University (OrelSTU), 1997-2004
+> Master of Business Administration (MBA) 2007-2009
 
 ## Online:
 > English courses: Skyeng, Duolingo, Lingualeo; 
