@@ -61,3 +61,26 @@ I don't have enough experience in Front-End Development at the moment.
                     </div>
                 </div>
 ```
+
+```css
+.recipe__time .ready__icon:nth-child(-n+2) .ready__title{
+    font-family: "Alegreya";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;   
+}
+.recipe__time .ready__icon:nth-child(-n+2) .ready__time{
+    font-family: "Alegreya";
+    font-weight: 700;
+    color: #56534c;
+    font-size: 60px;
+    font-style: normal;
+    letter-spacing: 6px;
+    line-height: normal;
+   
+}
+```
