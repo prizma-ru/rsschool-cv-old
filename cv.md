@@ -37,7 +37,7 @@ I don't have enough experience in Front-End Development at the moment.
 > A1
 
 ## Exemple cod
-``
+```html
             <div class="breakfast_box">
                 <div class="breakfast__items">
                     <div class="breakfast__item">
@@ -60,4 +60,4 @@ I don't have enough experience in Front-End Development at the moment.
                         <div class="breakfast__price">$3.95</div>
                     </div>
                 </div>
-``
+```
