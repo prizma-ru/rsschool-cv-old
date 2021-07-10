@@ -3,8 +3,8 @@
 ## Moscow
 
 ## Contacts
-> Phone number: +985-XXX-XX-XX;
-> Email: dmitry.glotov@gmail.com;
+> *Phone number:* __+985-XXX-XX-XX__;
+> *Email:* __dmitry.glotov@gmail.com__;
 
 ## Skills
 
