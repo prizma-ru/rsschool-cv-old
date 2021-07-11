@@ -152,15 +152,13 @@ background-color: #353541; */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    padding-right: 30px;
  
 }
 
 
 
-.aboutme__param{
-    padding-right: 30px;
 
-}
 .aboutme__data{
     color: #3e3e3e;
     font-family: Raleway;
@@ -183,6 +181,19 @@ background-color: #353541; */
 .aboutme__param p{
   border-bottom: 2px solid  #e5e5e5 ;   
 }
+
+.aboutme__card li{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    list-style-type: none;
+}
+    
+.aboutme__param li{
+  border-bottom: 2px solid  #e5e5e5 ; 
+  list-style-type: none;  
+}
+
+
 .aboutme__photo{
     
     height: 526px;
