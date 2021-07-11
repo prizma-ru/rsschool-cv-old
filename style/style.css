@@ -21,6 +21,7 @@ body{
 .header__block{    
    height:  586px;
    background: #1a1819 url("../img/Header_Bg_01.jpg") center no-repeat;
+   background-size: 1300px 718px;
    margin-bottom: 75px;
  
 }
@@ -236,6 +237,7 @@ background-color: #353541; */
     top:50%;
     left:50%;
     padding: 20px 82px 20px 20px;
+    background-size: 512px 147px;
 }   
 
 .experience__item.left{
@@ -243,6 +245,7 @@ background-color: #353541; */
     top:50%;
     left:50%;
     padding: 20px 30px 20px 60px;
+    background-size: 512px 147px;
 }
 
 .right{
@@ -318,24 +321,24 @@ background-color: #353541; */
 .cirlce_1{
     position: absolute;
     top: 0;
-    left: -21px;
+    left: -25px;
 }
 
 .cirlce_2{
     position: absolute;
     top: 180px;
-    left:-21px;
+    left: -25px;
 }
 .cirlce_3{
     position: absolute;
     top: 318px;
-    left:-21px;
+    left: -25px;
 
 }
 .cirlce_4{
     position: absolute;
     bottom: 0;
-    left:-21px;
+    left: -25px;
 }
 
 .myskills{
