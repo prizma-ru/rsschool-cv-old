@@ -32,7 +32,7 @@ body{
     margin-left: 88px;
 }
 .container{
-    width: 1120px;; /*ширина блока*/
+    width: 1120px; /*ширина блока*/
     max-width: 100%; /*максимальный размер 1440пх*/
     margin: 0 auto; /*выровниваем по центру*/
    
@@ -170,16 +170,6 @@ background-color: #353541; */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    
-}
-
-.aboutme__card p{
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-    
-.aboutme__param p{
-  border-bottom: 2px solid  #e5e5e5 ;   
 }
 
 .aboutme__card li{
@@ -194,11 +184,9 @@ background-color: #353541; */
 }
 
 
-.aboutme__photo{
-    
+.aboutme__photo{    
     height: 526px;
-    min-width:  380px;
-    
+    min-width:  380px;    
     position: relative;
     overflow: hidden;
 }
@@ -237,10 +225,7 @@ background-color: #353541; */
 
 .experience__item{
     width: 512px;
-    height: 147px; 
-  
-   
-
+    height: 147px;
 }
 
 .experience__item.right{
