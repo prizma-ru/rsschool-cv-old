@@ -20,7 +20,7 @@ body{
 
 .header__block{    
    height:  586px;
-   background: #1a1819 url("../img/Header_Bg.jpg") center no-repeat;
+   background: #1a1819 url("../img/Header_Bg_01.jpg") center no-repeat;
    margin-bottom: 75px;
  
 }
@@ -265,7 +265,7 @@ background-color: #353541; */
     padding-bottom: 15px;
 }
 .experience__company{ 
-    padding-left: 27px;
+    padding-left: 10px;
     opacity: 0.8;
     color: #ffffff;
     font-family: Raleway;
@@ -304,7 +304,7 @@ background-color: #353541; */
     
 }
 .experience__item.right p.experience__text{
-    padding-right: 100px;
+    padding-right: 0px;
 }
 .vl {
     border-left: 2px solid  #353541;
