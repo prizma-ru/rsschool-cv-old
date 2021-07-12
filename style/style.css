@@ -652,3 +652,14 @@ h3{
 .message__img{
     padding-right: 46px;
 }
+.social__icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon__rsschool{
+    padding-right: 20px;
+}
+.icon__github{
+    padding-left: 20px;
+}
