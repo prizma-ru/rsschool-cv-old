@@ -9,16 +9,23 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    width: 1300px;
+    /* width: 1400px; */
     /*  width: 100%; */
     /*ширина блока*/
     margin: 0 auto;
     /*выровниваем по центру*/
     color: #ffffff;
 }
-
+a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-family: Raleway;
+    
+}
 /* Style for "Background" */
-
+.header{
+    background-color: #1d1d24;
+}
 .header__block {
     height: 586px;
     background: #1a1819 url("../img/Header_Bg_01.jpg") center no-repeat;
@@ -103,6 +110,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 100px;
+    column-gap: 60px;
 }
 
 .aboutme__card {
@@ -149,7 +157,7 @@ body {
     padding-right: 30px;
 }
 
-.aboutme__data {
+.aboutme__param {
     color: #3e3e3e;
     font-family: Raleway;
     font-size: 18px;
@@ -188,12 +196,14 @@ body {
     z-index: 1;
     transform: translate3d(-50%, -50%, 0);
 }
-
+.experience{
+    padding: 50px 0;
+}
 .experience__title {
     color: #3e3e3e;
     font-family: "Raleway";
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 50px;
     text-align: left;
     font-style: normal;
@@ -205,7 +215,7 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-bottom: 180px;
+ 
 }
 
 .experience__item {
@@ -323,11 +333,13 @@ body {
     bottom: 0;
     left: -25px;
 }
+.education{
+    padding: 50px 0;
+}
 
 .myskills {
     background-color: #1d1d24;
     padding: 64px;
-    margin-bottom: 105px;
 }
 
 .myskills__title {
@@ -481,7 +493,9 @@ body {
 }
 
 .footer {
-    background-color: #ffffff
+    background-color: #ffffff;
+    background-color: #1d1d24;
+    padding: 25px 0;
 }
 
 .footer_title {
@@ -511,19 +525,21 @@ body {
 }
 
 .fab {
-    color: #717171;
+    color: #ffffff;
     font-size: 35px;
 }
 
 .fab:hover {
     color: #2ac2c8;
 }
-
+.message{
+    padding: 50px 0;
+}
 .message__title {
     color: #3e3e3e;
     font-family: Raleway;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 36px;
+    font-weight: 600;
     font-style: normal;
     letter-spacing: normal;
     line-height: 50px;
@@ -617,7 +633,7 @@ textarea::placeholder {
 }
 
 h3 {
-    color: #3e3e3e;
+    color: #ffffff;
     font-family: Raleway;
     font-size: 22px;
     font-weight: 500;
@@ -659,4 +675,161 @@ h3 {
 
 .icon__github {
     padding-left: 20px;
+}
+
+.portfolio{
+    background-color: #1d1d24;
+    padding: 50px 0;
+}
+
+.portfolio__title{
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+.no__img{
+background-color: #252e30;
+}
+.portfolio__menu{
+    padding: 40px;;
+}
+
+.filter__title{
+    background-color: #252e30;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.667;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    }   
+
+
+.portfolio__menu p{
+    color: #838484;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.portfolio__menu p:last-child{
+   padding: 0;
+}
+
+.portfolio__menu p:first-child{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.portfolio__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio__item{    
+    width: 365px;
+    height: 300px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio__photo {
+    min-width: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate3d(-50%, -50%, 0);
+}
+/*------------------visiting section---------------*/
+
+.visiting div h2 {
+    margin-bottom: 26px;
+}
+
+.visiting__items {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    /*минимальное растояние между flex элементами*/
+    justify-content: space-between;
+}
+
+.visiting__card {
+    height: 100%;
+    margin-top: 77px;
+    cursor: pointer;
+}
+
+.card__img {
+    margin-bottom: 25px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.item__titel {
+    /* position: relative; */
+    margin-bottom: 21px;
+    color: #ffffff;
+    transition: color .5s;
+    text-align: center;
+
+}
+
+
+
+
+.visiting__item {
+    display: block;
+    height: 100%;
+}
+
+.content {
+    display: block;
+    height: 100%;
+}
+
+.item__img {
+    margin-bottom: 25px;
+    margin-top: 77px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.item__img a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*------------------visiting section---------------*/
+.visiting__card:hover .item__titel {
+    color: #2ac2c8;;
+}
+pre {
+    font-family: monospace, monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+pre code.hljs {
+    background-color:#ffffff;
+    padding: 0;
+}
+code{
+    margin: 0;
+    padding: 0;
+}
+.code{
+    padding: 50px 0;
 }
