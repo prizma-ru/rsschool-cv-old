@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     /* width: 1400px; */
     /*  width: 100%; */
     /*ширина блока*/
@@ -18,13 +18,31 @@ body {
 }
 a {
     text-decoration: none;
-    color: #3e3e3e;
-    font-family: Raleway;
-    
+    color: #ffffff;
+    font-family: "Raleway";
+    transition:  .5s;    
+}
+.aboutme__param li a{
+    color: #3e3e3e; 
+}
+li {
+    list-style: none;
+    transition: color .5s;
+}
+html {
+    scroll-behavior: smooth;
 }
 /* Style for "Background" */
 .header{
     background-color: #1d1d24;
+}
+.container {
+    width: 1120px;
+    /*ширина блока*/
+    max-width: 100%;
+    /*максимальный размер 1440пх*/
+    margin: 0 auto;
+    /*выровниваем по центру*/
 }
 .header__block {
     height: 586px;
@@ -37,22 +55,29 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 88px;
+}.header__nav{
+      margin-top: auto;  
+}
+.header__nav-element{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.header__nav-element li{
+    padding: 20px;
+    font-size: 18px;
+    
+}
+.nav__link:hover {
+    color: #2ac2c8;
+    font-size: 20px;
 }
 
-.container {
-    width: 1120px;
-    /*ширина блока*/
-    max-width: 100%;
-    /*максимальный размер 1440пх*/
-    margin: 0 auto;
-    /*выровниваем по центру*/
-}
 
 .header__title {
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     text-align: center;
     margin-top: 210px;
@@ -60,7 +85,7 @@ a {
 }
 
 .header__text {
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
@@ -70,6 +95,7 @@ a {
 
 .header__form {
     text-align: center;
+ margin-bottom: 150px;
 }
 
 .header__btn {
@@ -83,7 +109,7 @@ a {
     border: 2px solid #fb6470;
     outline: none;
     /*убирает черный бордер при клике по кнопке*/
-    margin-bottom: 100px;
+   
 }
 
 .header__title:after {
@@ -120,11 +146,9 @@ a {
 }
 
 .aboutme__title {
-    color: #3e3e3e;
-    font-family: "Raleway";
+    color: #3e3e3e;  
     font-size: 32px;
-    font-weight: 600;
-    text-align: left;
+    font-weight: 600;    
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -134,7 +158,7 @@ a {
 .aboutme__text {
     opacity: 0.8;
     color: #3e3e3e;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
@@ -159,9 +183,7 @@ a {
 
 .aboutme__param {
     color: #3e3e3e;
-    font-family: Raleway;
     font-size: 18px;
-    line-height: 50px;
     text-align: left;
     font-family: "Raleway";
     font-weight: 500;
@@ -201,11 +223,8 @@ a {
 }
 .experience__title {
     color: #3e3e3e;
-    font-family: "Raleway";
     font-size: 32px;
     font-weight: 600;
-    line-height: 50px;
-    text-align: left;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -249,7 +268,7 @@ a {
 
 .experience__position {
     color: #ffffff;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 22px;
     font-weight: 500;
     text-align: left;
@@ -263,7 +282,7 @@ a {
     padding-left: 10px;
     opacity: 0.8;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
@@ -275,7 +294,7 @@ a {
 .experience__data {
     display: block;
     color: #fb6470;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 18px;
     font-weight: 400;
     text-align: left;
@@ -289,7 +308,7 @@ a {
 .experience__text {
     display: block;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
@@ -344,12 +363,10 @@ a {
 
 .myskills__title {
     color: #ffffff;
-    font-family: "Raleway";
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    letter-spacing: normal;
-    line-height: 50px;
+    letter-spacing: normal;    
     text-align: left;
     line-height: normal;
     position: relative;
@@ -511,7 +528,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 35px;
 }
 
 .footer_social ul {
@@ -537,15 +553,12 @@ a {
 }
 .message__title {
     color: #3e3e3e;
-    font-family: Raleway;
     font-size: 36px;
     font-weight: 600;
     font-style: normal;
-    letter-spacing: normal;
-    line-height: 50px;
+    letter-spacing: normal;    
     text-align: left;
     line-height: normal;
-    padding-bottom: 22px;
 }
 
 .message__flex {
@@ -634,12 +647,12 @@ textarea::placeholder {
 
 h3 {
     color: #ffffff;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 22px;
     font-weight: 500;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 50px;
+    
     line-height: normal;
 }
 
@@ -650,12 +663,12 @@ h3 {
 .message__text p {
     opacity: 0.8;
     color: #3e3e3e;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 50px;
+    
     line-height: normal;
 }
 
@@ -684,48 +697,15 @@ h3 {
 
 .portfolio__title{
     color: #ffffff;
-    font-family: "Raleway";
     font-size: 32px;
-    font-weight: 600;
-    line-height: 50px;
+    font-weight: 600;    
     text-align: left;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    margin-bottom: 25px;
-}
-.no__img{
-background-color: #252e30;
-}
-.portfolio__menu{
-    padding: 40px;;
 }
 
-.filter__title{
-    background-color: #252e30;
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 1.667;
-    color: rgb(255, 255, 255);
-    margin-bottom: 20px;
-    }   
 
-
-.portfolio__menu p{
-    color: #838484;
-    padding-bottom: 10px;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.portfolio__menu p:last-child{
-   padding: 0;
-}
-
-.portfolio__menu p:first-child{
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-}
 
 .portfolio__items{
     display: flex;
